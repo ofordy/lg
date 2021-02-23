@@ -16,6 +16,10 @@ localStorage.setItem("inter", inter);
     $('.loading').css({display: 'flex'});
 });
 
+function Landscape() {
+parent.location="https://landscape";
+}
+
 $("#a").click(function() {
 	$('html,body').animate({
 	scrollTop: $(".a").offset().top},
